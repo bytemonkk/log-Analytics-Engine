@@ -1,0 +1,16 @@
+[project]
+name = "log-analytics-engine"
+version = "0.1.0"
+description = "A scalable log analytics engine for processing large-scale application logs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.8",
+]
+
+[tool.uv]
+package = true
