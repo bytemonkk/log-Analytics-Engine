@@ -4,6 +4,7 @@ Version: 0.1.0
 Summary: A scalable log analytics engine for processing large-scale application logs
 Requires-Python: >=3.11
 Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.13.5
 
 # Log-Analytics-Engine
 
